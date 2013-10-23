@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maplink.Calculo.BLL", "Maplink.Calculo\Maplink.Calculo.BLL.csproj", "{4C92882E-FC84-4EAC-9FBF-CC257B29C6CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maplink.Calculo.Hub", "Maplink.Calculo.Hub\Maplink.Calculo.Hub.csproj", "{5F86EA7A-D03D-43D0-9A28-BACCF0D9FE2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maplink.Calculo.BE", "Maplink.Calculo.BE\Maplink.Calculo.BE.csproj", "{E7A3555E-EFC4-481E-9011-3FC1629954B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maplink.Calculo.Host", "Maplink.Calculo.Host\Maplink.Calculo.Host.csproj", "{D9A3B60C-B670-4D03-8FEE-AD339FA4F4BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{BC859B53-BA68-4AB3-9ABC-1924D76AC3E9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9A3B60C-B670-4D03-8FEE-AD339FA4F4BD} = {D9A3B60C-B670-4D03-8FEE-AD339FA4F4BD}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Componente", "Componente", "{F2DA4976-425F-4982-972E-8AAB1189A215}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C92882E-FC84-4EAC-9FBF-CC257B29C6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C92882E-FC84-4EAC-9FBF-CC257B29C6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C92882E-FC84-4EAC-9FBF-CC257B29C6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C92882E-FC84-4EAC-9FBF-CC257B29C6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F86EA7A-D03D-43D0-9A28-BACCF0D9FE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F86EA7A-D03D-43D0-9A28-BACCF0D9FE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F86EA7A-D03D-43D0-9A28-BACCF0D9FE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F86EA7A-D03D-43D0-9A28-BACCF0D9FE2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A3555E-EFC4-481E-9011-3FC1629954B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A3555E-EFC4-481E-9011-3FC1629954B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A3555E-EFC4-481E-9011-3FC1629954B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A3555E-EFC4-481E-9011-3FC1629954B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A3B60C-B670-4D03-8FEE-AD339FA4F4BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A3B60C-B670-4D03-8FEE-AD339FA4F4BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A3B60C-B670-4D03-8FEE-AD339FA4F4BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A3B60C-B670-4D03-8FEE-AD339FA4F4BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC859B53-BA68-4AB3-9ABC-1924D76AC3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC859B53-BA68-4AB3-9ABC-1924D76AC3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC859B53-BA68-4AB3-9ABC-1924D76AC3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC859B53-BA68-4AB3-9ABC-1924D76AC3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7A3555E-EFC4-481E-9011-3FC1629954B5} = {F2DA4976-425F-4982-972E-8AAB1189A215}
+		{4C92882E-FC84-4EAC-9FBF-CC257B29C6CC} = {F2DA4976-425F-4982-972E-8AAB1189A215}
+		{D9A3B60C-B670-4D03-8FEE-AD339FA4F4BD} = {F2DA4976-425F-4982-972E-8AAB1189A215}
+		{5F86EA7A-D03D-43D0-9A28-BACCF0D9FE2B} = {F2DA4976-425F-4982-972E-8AAB1189A215}
+	EndGlobalSection
+EndGlobal
