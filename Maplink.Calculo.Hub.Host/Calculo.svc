@@ -1,1 +1,0 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="Maplink.Calculo.Host" CodeBehind="Maplink.Calculo.Calculadora.cs" %>
